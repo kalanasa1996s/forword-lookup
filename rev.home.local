@@ -1,0 +1,21 @@
+$TTL 1h
+
+@	IN	SOA	ns1.kalana.local. root.kalana.local. (
+
+0000
+6h
+2h
+4w
+1h )
+
+@	IN	NS	ns1.kalana.local.
+@	IN	NS	ns2.kalana.local.
+
+31	IN	PTR	kalana.local.
+
+31	IN	PTR	www.kalana.local.
+
+31	IN	PTR	mail.kalana.local.
+
+31	IN	PTR	ftp.kalana.local.
+
