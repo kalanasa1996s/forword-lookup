@@ -1,0 +1,23 @@
+$ORIGIN kalana.local.
+$TTL	1h
+ 
+kalana.local.	IN	SOA	ns1.kalana.local. root.kalana.local.	(
+
+0001
+6h
+2h
+4w
+1h )
+
+@	IN	NS	ns1.kalana.local.
+@	IN	NS	ns2.kalana.local.
+@	IN	MX	10	mail.kalana.local.
+
+kalana.local.	IN	A	192.168.1.31
+
+www	IN	A	192.168.1.31
+mail	IN	A	192.168.1.31
+ftp	IN	A	192.168.1.31
+ns1	IN	A	192.168.1.31
+ns2	IN	A	192.168.1.31
+
